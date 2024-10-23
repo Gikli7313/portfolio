@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+  background-color: #fbfcfd;
+}
+.App {
+  margin: 0 auto;
+  width: 500px;
+}
+.App > h1 {
+  text-align: center;
+  color: #3997ce;
+}
+.App > section {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  background-color: #d4e2e9;
+  padding: 10px;
+  margin: 10px;
+}
+.App > section:nth-of-type(1) {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  margin: 10px;
+  padding: 10px;
+}
+.Viewer {
+  color: #1786c7;
+}
+.wrap button {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  background-color: #c4d5e8;
+  margin: 10px;
+  flex: 1;
+  cursor: pointer;
+  color: #717e83;
+}
+.wrap {
+  display: flex;
+}
+.Even {
+  border-radius: 5px;
+  padding: 6px 12px;
+  margin: 10px;
+  left: 200px;
+  top: 0;
+  color: #2f7d9c;
+}
