@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>포트폴리오</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+
+    <link rel="icon" href="" />
+  </head>
+
+  <body>
+    <!-- <div class="cursor small"></div> -->
+    <div class="container">
+      <div class="wave_bg">
+        <img src="images/3d-render-of-rounded-blue-asterisk-1.png" alt="" />
+      </div>
+      <div class="main_visual">
+        <div class="box1">
+          <div class="in_box"></div>
+          <div class="in_box"></div>
+          <div class="in_box"></div>
+          <div class="in_box"></div>
+        </div>
+        <div class="box2">
+          <div class="in_box"></div>
+          <div class="in_box"></div>
+          <div class="in_box"></div>
+          <div class="in_box"></div>
+        </div>
+        <div class="email_copy">
+          <p id="text-to-copy">alsxm7313@naver.com</p>
+
+          <dotlottie-player
+            src="https://lottie.host/b8c4040d-089d-489a-bb96-090df10051f5/3NsG3tdpA3.json"
+            background="transparent"
+            speed="1"
+            style="width: 100px; height: 100px"
+            loop
+            autoplay
+          >
+          </dotlottie-player>
+          <div class="copy-button">Copy</div>
+        </div>
+        <div class="animation">
+          <!-- <lottie-player src="https://lottie.host/45bdb07e-3778-4f0f-9a68-514e9ef1230e/Eo9yVdRht9.json" background="transparent" 
+            speed="0.4" 
+            style="width: 80px; height: 80px" 
+            loop autoplay direction="1" 
+            mode="normal"></lottie-player> -->
+        </div>
+        <div class="text-container">
+          <h1>WEB<br />DESIGN<br />PORTFOLIO</h1>
+        </div>
+        <h2>WEB<br />DESIGN<br />PORTFOLIO</h2>
+        <h2>WEB<br />DESIGN<br />PORTFOLIO</h2>
+        <div id="myCanvas">
+          <canvas></canvas>
+        </div>
+      </div>
+      <div class="bg"></div>
+
+      <div class="profile">
+        <div class="inner">
+          <h3>Profile</h3>
+
+          <div class="profile_box">
+            <div class="line">
+              <div class="photo">
+                <img src="images/pro.svg" alt="" />
+              </div>
+            </div>
+            <div class="info">
+              <p>민병현</p>
+              <div class="info_txt">
+                <ul>
+                  <li>Birth</li>
+                  <li>Tel</li>
+                  <li>Mail</li>
+                  <li>Insta</li>
+                </ul>
+                <ul>
+                  <li>2001.05.11</li>
+                  <li>010.3347.7334</li>
+                  <li>alsxm7313@naver.com</li>
+                  <li>@hyeon7313</li>
+                </ul>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="design">
+                <p>Design</p>
+                <svg
+                  class="design-tool"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 420 420"
+                >
+                  <g>
+                    <g
+                      class="text"
+                      opacity=".87"
+                      font-size="16"
+                      fill="#fff"
+                      font-family="RobotoMono-Light,Roboto Mono"
+                      font-weight="300"
+                    >
+                      <text
+                        class="tool-illustrator"
+                        transform="translate(172.31 114.99)"
+                      >
+                        Illustrator
+                      </text>
+                      <text
+                        class="tool-sketch"
+                        transform="translate(35.7 193.74)"
+                      >
+                        Figma
+                      </text>
+                      <text
+                        class="tool-invision"
+                        transform="translate(17.09 316.94)"
+                      >
+                        Photoshop
+                      </text>
+                      <text
+                        class="tool-indesign"
+                        transform="translate(190.11 402.93)"
+                      >
+                        Excel
+                      </text>
+                      <text transform="translate(326.68 185.19)">Cafe24</text>
+                      <text transform="translate(320.09 323.06)">
+                        Powerpoint
+                      </text>
+                    </g>
+                    <g
+                      class="chart"
+                      fill="none"
+                      stroke="#fff"
+                      stroke-miterlimit="10"
+                    >
+                      <path
+                        class="hexagon"
+                        opacity=".8"
+                        d="M106.14 309.33V190.21l103.15-59.56 103.17 59.56v119.12l-103.17 59.56-103.15-59.56z"
+                      />
+                      <path
+                        class="hexagon-2"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M291.03 296.23L209 343.61l-82.03-47.38v-94.71L209 154.16l82.03 47.36v94.71z"
+                      />
+                      <path
+                        class="hexagon-3"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M152.45 283.78v-65.64l56.83-32.83 56.85 32.83v65.64l-56.85 32.82-56.83-32.82z"
+                      />
+                      <path
+                        class="hexagon-4"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M173.56 271.6v-41.26l35.72-20.64L245 230.34v41.26l-35.72 20.61-35.72-20.61z"
+                      />
+                      <path
+                        class="hexagon-5"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M194.7 258.73v-16.85l14.6-8.44 14.6 8.44v16.85l-14.6 8.43-14.6-8.43z"
+                      />
+                      <path
+                        class="bar-1"
+                        opacity=".4"
+                        stroke-dasharray="1"
+                        d="M312.45 190.21l-88.55 51.67"
+                      />
+                      <path
+                        class="bar-2"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M194.7 241.88l-88.57-51.67"
+                      />
+                      <path
+                        class="bar-3"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M194.7 258.73l-88.57 50.6"
+                      />
+                      <path
+                        class="bar-4"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M223.9 258.73l88.55 50.6"
+                      />
+                      <path
+                        class="bar-5"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M209.3 267.16l-.02 101.73"
+                      />
+                      <path
+                        class="bar-6"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M209.3 130.65l-.02 102.79"
+                      />
+                    </g>
+                    <g class="numbers" opacity=".3" fill="#fff">
+                      <path
+                        d="M298.75 252.92l.73-1a2.2 2.2 0 0 0 1.52.71 1.06 1.06 0 0 0 1.18-.93 1 1 0 0 0 0-.17 1 1 0 0 0-.95-1.09h-.17a1.61 1.61 0 0 0-1 .35l-.73-.48.21-3.58h4v1.37h-2.69l-.13 1.34a1.7 1.7 0 0 1 .8-.17 2.08 2.08 0 0 1 2.24 1.9 1.61 1.61 0 0 1 0 .31 2.43 2.43 0 0 1-2.38 2.48h-.22a3.35 3.35 0 0 1-2.41-1.04z"
+                      />
+                      <path
+                        d="M279.77 251v-4.17h-2.08l-2.58 4.17v1.12h3.06l.08 1.81h1.52v-1.68h.82V251zm-1.6-1.27v1.14h-1.52l.94-1.54c.21-.39.41-.79.58-1.19z"
+                      />
+                      <path
+                        d="M252.9 252.89l.75-1a2.21 2.21 0 0 0 1.54.71c.69 0 1.15-.29 1.15-.83s-.38-1-1.92-1v-1.17c1.27 0 1.67-.37 1.67-1s-.32-.77-.88-.77a2.06 2.06 0 0 0-1.33.63l-.83-1a3.33 3.33 0 0 1 2.29-1c1.45 0 2.43.71 2.43 1.94a1.66 1.66 0 0 1-1.18 1.56 1.78 1.78 0 0 1 1.39 1.73c0 1.31-1.21 2.08-2.62 2.08a3.1 3.1 0 0 1-2.46-.88z"
+                      />
+                      <path
+                        d="M231.83 252.83c1.81-1.71 3.08-2.91 3.08-3.93a1 1 0 0 0-.84-1.06h-.16a1.85 1.85 0 0 0-1.27.73l-.89-.87a3 3 0 0 1 2.37-1.21 2.1 2.1 0 0 1 2.33 1.81 2.16 2.16 0 0 1 0 .44 6.44 6.44 0 0 1-2.27 3.66 11.81 11.81 0 0 1 1.19 0h1.44v1.38h-5z"
+                      />
+                      <path
+                        d="M207 252.44h1.54v-4.17h-1.33v-1a5.09 5.09 0 0 0 1.77-.64h1.21v5.74h1.33v1.34H207z"
+                      />
+                    </g>
+                    <path
+                      class="design-tool-line"
+                      fill="none"
+                      stroke="salmon"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M90.57,0.7 L0.51,51.57 L3.64,154.09 L90.57,173.66 L128.86,125.14 L128.86,82.09 L90.57,0.7 Z"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="coding">
+                <p>Coding</p>
+                <svg
+                  class="coding-tool"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 420 420"
+                >
+                  <g>
+                    <g
+                      class="text"
+                      opacity=".87"
+                      fill="#fff"
+                      font-family="RobotoMono-Light,Roboto Mono"
+                      font-weight="300"
+                    >
+                      <text
+                        class="tool-css"
+                        transform="translate(196.82 109.95)"
+                      >
+                        CSS
+                      </text>
+                      <text
+                        class="tool-scss"
+                        transform="translate(58.7 191.79)"
+                      >
+                        SASS
+                      </text>
+                      <text class="tool-git" transform="translate(58.1 316.94)">
+                        React
+                      </text>
+                      <text transform="translate(327.69 191.79)">HTML</text>
+                      <text transform="translate(328.89 307.94)">
+                        Java
+                        <tspan x="0" y="19.2">Script</tspan>
+                      </text>
+                      <text
+                        class="tool-vscode"
+                        transform="translate(177.62 397.89)"
+                      >
+                        VS code
+                      </text>
+                    </g>
+                    <g fill="none" stroke="#fff" stroke-miterlimit="10">
+                      <path
+                        class="hexagon-1"
+                        opacity=".8"
+                        d="M106.48 309.33V190.21l103.15-59.56 103.18 59.56v119.12l-103.18 59.56-103.15-59.56z"
+                      />
+                      <path
+                        class="hexagon-2"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M291.39 296.23l-82.04 47.38-82.03-47.38v-94.71l82.03-47.36 82.04 47.36v94.71z"
+                      />
+                      <path
+                        class="hexagon-3"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M152.8 283.78v-65.64l56.83-32.83 56.86 32.83v65.64l-56.86 32.82-56.83-32.82z"
+                      />
+                      <path
+                        class="hexagon-4"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M173.92 271.6v-41.26l35.71-20.64 35.72 20.64v41.26l-35.72 20.61-35.71-20.61z"
+                      />
+                      <path
+                        class="hexagon-5"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M195.06 258.73v-16.85l14.6-8.44 14.59 8.44v16.85l-14.59 8.43-14.6-8.43z"
+                      />
+                      <path
+                        class="bar-1"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M312.81 190.21l-88.56 51.67"
+                      />
+                      <path
+                        class="bar-2"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M195.06 241.88l-88.58-51.67"
+                      />
+                      <path
+                        class="bar-3"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M195.06 258.73l-88.58 50.6"
+                      />
+                      <path
+                        class="bar-4"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M224.25 258.73l88.56 50.6"
+                      />
+                      <path
+                        class="bar-5"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M209.66 267.16l-.03 101.73"
+                      />
+                      <path
+                        class="bar-6"
+                        opacity=".4"
+                        stroke-dasharray="2"
+                        d="M209.66 130.65l-.03 102.79"
+                      />
+                    </g>
+                    <g class="numbers" opacity=".3" fill="#fff">
+                      <path
+                        d="M299.64 252.92l.73-1a2.24 2.24 0 0 0 1.52.71 1.05 1.05 0 0 0 1.18-.93.91.91 0 0 0 0-.17 1 1 0 0 0-.95-1.09H302a1.61 1.61 0 0 0-1 .35l-.73-.48.2-3.58h4v1.37h-2.68l-.13 1.34a1.68 1.68 0 0 1 .79-.17 2.08 2.08 0 0 1 2.25 1.9 1.61 1.61 0 0 1 0 .31 2.43 2.43 0 0 1-2.39 2.48H302a3.39 3.39 0 0 1-2.36-1.04z"
+                      />
+                      <path
+                        d="M280.67 251v-4.17h-2.08L276 251v1.12h3.06l.08 1.81h1.52v-1.68h.81V251zm-1.6-1.27v1.14h-1.52l.94-1.54c.2-.39.41-.79.58-1.19z"
+                      />
+                      <path
+                        d="M253.8 252.89l.75-1a2.21 2.21 0 0 0 1.54.71c.69 0 1.15-.29 1.15-.83s-.38-1-1.92-1v-1.17c1.27 0 1.67-.37 1.67-1s-.32-.77-.88-.77a2.06 2.06 0 0 0-1.33.63l-.84-1a3.37 3.37 0 0 1 2.3-1c1.45 0 2.43.71 2.43 1.94a1.66 1.66 0 0 1-1.18 1.56 1.78 1.78 0 0 1 1.39 1.73c0 1.31-1.21 2.08-2.62 2.08a3.07 3.07 0 0 1-2.46-.88z"
+                      />
+                      <path
+                        d="M232.73 252.83c1.81-1.71 3.08-2.91 3.08-3.93a1 1 0 0 0-.85-1.06h-.15a1.83 1.83 0 0 0-1.27.73l-.89-.87a3 3 0 0 1 2.37-1.21 2.08 2.08 0 0 1 2.32 1.81 2.16 2.16 0 0 1 0 .44 6.5 6.5 0 0 1-2.27 3.66 11.81 11.81 0 0 1 1.19 0h1.44v1.38h-5z"
+                      />
+                      <path
+                        d="M207.9 252.44h1.54v-4.17h-1.33v-1a5.16 5.16 0 0 0 1.77-.64h1.2v5.74h1.34v1.34h-4.52z"
+                      />
+                    </g>
+                    <path
+                      class="coding-tool-line"
+                      fill="none"
+                      stroke="#8eee8e"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M61.26,0.67 L0.56,91.45 L22.99,150.41 L60.88,252.15 L148.73,177.54 L171.17,64.32 L61.26,0.67 Z"
+                    />
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -----profile--- -->
+      <div class="divide"></div>
+      <div class="content">
+        <div class="inner">
+          <h3>Content</h3>
+          <div class="radial"></div>
+
+          <ul class="content_up">
+            <li>
+              <a href="#web">
+                <span><img src="images/plus.png" alt="" /></span>
+                <p>Web Design <span></span></p>
+              </a>
+            </li>
+            <li>
+              <a href="#frame_work">
+                <span><img src="images/plus.png" alt="" /></span>
+                <p>Frame Work <span></span></p>
+              </a>
+            </li>
+            <li>
+              <a href="#poster">
+                <span><img src="images/plus.png" alt="" /></span>
+                <p>Poster Design <span></span></p>
+              </a>
+            </li>
+            <li>
+              <a href="#logo">
+                <span><img src="images/plus.png" alt="" /></span>
+
+                <p>Logo Design <span></span></p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="divide"></div>
+      <div id="web">
+        <div class="inner">
+          <h3>Web Design</h3>
+          <!-- <div class="more_btn">MORE</div> -->
+          <div class="swipers">
+            <div class="swiper swiper_txt">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <p class="p_main">Hyundai Connect</p>
+                  <dl>
+                    <dd>현대커넥트 Redesign</dd>
+                    <dd>
+                      <ul class="in_txt">
+                        <li>개발기간:2일</li>
+                        <li>개인프로젝트</li>
+                        <li>photoshop</li>
+                        <li>html, scss, js,그누보드,반응형</li>
+                      </ul>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="swiper-slide">
+                  <p class="p_main">ZARA</p>
+                  <dl>
+                    <dd>Zara Redesign</dd>
+                    <dd>
+                      <ul class="in_txt">
+                        <li>개발기간:2일</li>
+                        <li>개인프로젝트</li>
+                        <li>photoshop</li>
+                        <li>html, css, js</li>
+                      </ul>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="swiper-slide">
+                  <p class="p_main">AOMG</p>
+                  <dl>
+                    <dd>AOMG Redesign</dd>
+                    <dd>
+                      <ul class="in_txt">
+                        <li>개발기간:3일</li>
+                        <li>개인프로젝트</li>
+                        <li>photoshop</li>
+                        <li>html, scss, js, 반응형</li>
+                      </ul>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="swiper-slide">
+                  <p class="p_main">경희 대학교</p>
+                  <dl>
+                    <dd>경희대학교 Redesign</dd>
+                    <dd>
+                      <ul class="in_txt">
+                        <li>개발기간:3일</li>
+                        <li>개인프로젝트</li>
+                        <li>photoshop</li>
+                        <li>html, scss, js, 반응형</li>
+                      </ul>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="swiper-slide">
+                  <p class="p_main">FORD</p>
+                  <dl>
+                    <dd>Ford Redesign</dd>
+                    <dd>
+                      <ul class="in_txt">
+                        <li>개발기간:3일</li>
+                        <li>개인프로젝트</li>
+                        <li>photoshop</li>
+                        <li>html, css, js</li>
+                      </ul>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="swiper-slide">
+                  <p class="p_main">왕가 탕후루</p>
+                  <dl>
+                    <dd>왕가 탕후루 Redesign</dd>
+                    <dd>
+                      <ul class="in_txt">
+                        <li>개발기간:2일</li>
+                        <li>개인프로젝트</li>
+                        <li>photoshop</li>
+                        <li>html, css, js</li>
+                      </ul>
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <!-- --swiper-- -->
+            <div class="swiper-button-next">
+              <button class="btn" type="button">NEXT</button>
+            </div>
+            <div class="swiper-button-prev">
+              <button class="btn" type="button">PREV</button>
+            </div>
+
+            <div class="swiper-pagination">
+              <div class="select"></div>
+            </div>
+
+            <div class="swiper web_img">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <figure class="case">
+                    <a href="http://alsxm73131.dothome.co.kr/" target="_blank">
+                      <img src="images/hyundai_index.png" alt="" />
+                    </a>
+                  </figure>
+                </div>
+                <div class="swiper-slide">
+                  <figure class="case">
+                    <a href="in/zara/index.html" target="_blank">
+                      <img src="images/zara_index.png" alt="" />
+                    </a>
+                  </figure>
+                </div>
+                <div class="swiper-slide">
+                  <figure class="case">
+                    <a href="in/aomg/index.html" target="_blank">
+                      <img src="images/aomg_index.png" alt="" />
+                    </a>
+                  </figure>
+                </div>
+                <div class="swiper-slide">
+                  <figure class="case">
+                    <a href="in/univ/index.html" target="_blank">
+                      <img src="images/univ.png" alt="" />
+                    </a>
+                  </figure>
+                </div>
+                <div class="swiper-slide">
+                  <figure class="case">
+                    <a href="in/ford/index.html" target="_blank">
+                      <img src="images/ford_index.png" alt="" />
+                    </a>
+                  </figure>
+                </div>
+                <div class="swiper-slide">
+                  <figure class="case">
+                    <a href="in/tang/index.html" target="_blank">
+                      <img src="images/tang_index.png" alt="" />
+                    </a>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg"></div>
+      </div>
+      <div class="divide"></div>
+      <div id="frame_work">
+        <div class="inner">
+          <h3>Frame Work</h3>
+
+          <div class="frame_work_wrap">
+            <div class="frame_work_container">
+              <div class="frame_react frame_content">
+                <div class="frame_box">
+                  <div class="frame_img">
+                    <a href="in/count/index.html" target="_blank">
+                      <img src="images/count_img.png" alt="" />
+                    </a>
+                  </div>
+                  <div class="frame_txt"><p>카운트앱</p></div>
+                </div>
+                <div class="frame_box">
+                  <div class="frame_img">
+                    <a href="in/todo/index.html" target="_blank">
+                      <img src="images/todo_img.png" alt="" />
+                    </a>
+                  </div>
+                  <div class="frame_txt"><p>투두리스트</p></div>
+                </div>
+                <div class="frame_box">
+                  <div class="frame_img">
+                    <a href="in/diarypage" target="_blank">
+                      <img src="images/diary_img.png" alt="" />
+                    </a>
+                  </div>
+                  <div class="frame_txt"><p>감정일기장</p></div>
+                </div>
+              </div>
+              <div class="frame_vue frame_content">
+                <div class="frame_box">
+                  <div class="frame_img">
+                    <a href="in/login/dist/index.html" target="_blank">
+                      <img src="images/frame_vue.png" alt="" />
+                    </a>
+                  </div>
+                  <div class="frame_txt">
+                    <p>로그인 페이지</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="frame_btn">
+              <li><a href="#!" class="react-btn active">React</a></li>
+              <li><a href="#!" class="vue-btn">Vue</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="divide"></div>
+      <div id="poster">
+        <div class="inner">
+          <h3>Poster Design</h3>
+          <div data-aos="fade" data-aos-delay="200" class="poster_up">
+            <div class="poster_txt">
+              <p class="p_main">부산 불꽃축제</p>
+              <ul class="in_txt">
+                <li>개발기간:1일</li>
+                <li>개인 프로젝트</li>
+                <li>photoshop</li>
+              </ul>
+              <div class="color_box">
+                <div class="flex">
+                  <div class="color"></div>
+                  <p>#183d8a</p>
+                </div>
+                <div class="flex">
+                  <div class="color"></div>
+                  <p>#000000</p>
+                </div>
+                <div class="flex">
+                  <div class="color"></div>
+                  <p>#fbdeb2</p>
+                </div>
+                <div class="bg"></div>
+              </div>
+              <span
+                >축제라는 키워드에서 연상되는 일상속에서<br />
+                벗어 날 수 있다는느낌을 뽑아내어 나타냈습니다.</span
+              >
+            </div>
+            <div data-aos="fade-up-left" class="poster_img">
+              <img src="images/부산불꽃축제_민병현.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="bg2"></div>
+      </div>
+      <div class="divide"></div>
+
+      <div id="logo">
+        <div class="inner">
+          <h3>Logo Design</h3>
+          <div class="logo_up">
+            <div data-aos="fade" data-aos-delay="200" class="sec_left">
+              <p>딥티크</p>
+              <ul class="in_txt">
+                <li>개발기간:2일</li>
+                <li>개인 프로젝트</li>
+                <li>illustrator</li>
+              </ul>
+              <p>
+                딥티크에서 추구하는 방향성은 지속가능성과<br />
+                기후행동이란 키워드에 어울리지 않는 로고라<br />고 생각되어
+                자연과 지속가능성을 떠올릴 수<br />
+                있는 로고를 리디자인 하였습니다.
+              </p>
+            </div>
+            <div data-aos="fade-up-left" class="sec_right">
+              <div class="logo_txt">
+                <img src="images/로고.svg" alt="" />
+                <dl>
+                  <dt>DIPTYQUE</dt>
+                  <dd>
+                    딥티크가 추구하는 뱡향인 자연스러운 향을 참고하여 <br />
+                    자연과 동물이 겹쳐 보일 수 있는 로고를 표현하였습니다.
+                  </dd>
+                </dl>
+              </div>
+              <div class="logo_img">
+                <div class="card">
+                  <img src="images/명함1.svg" alt="" />
+                  <img src="images/명함2.svg" alt="" />
+                </div>
+                <div class="uni">
+                  <img src="images/유니폼.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg"></div>
+      </div>
+      <div class="divide"></div>
+      <div id="footer">
+        <p>
+          기본에 충실한<br />디자이너 민병현<span
+            >이었습니다<br />감사합니다</span
+          >
+        </p>
+        <div class="tel">
+          <p>010-3347-7334 <br />alsxm7313@nave.com</p>
+        </div>
+      </div>
+    </div>
+    <!-- ---------container------- -->
+    <div id="gotop">
+      <a href="#">
+        <dotlottie-player
+          src="https://lottie.host/bde9bb17-3163-4be1-9235-c599603f754b/4bS48O2hlB.json"
+          background="transparent"
+          speed="1"
+          style="width: 150px; height: 150px"
+          loop
+          autoplay
+        >
+        </dotlottie-player>
+      </a>
+    </div>
+
+    <script src="js/stats.js"></script>
+    <!-- 반딧불 -->
+    <!-- <script src="js/script.js"></script> -->
+    <!-- <script src="js/jquery-1.12.4.js"></script> -->
+    <!-- 제이쿼리 -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    스와이퍼
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS -->
+    <script src="js/main.js" defer></script>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+    <!-- 메일 -->
+    <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>  -->
+    <!-- 박스 -->
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+    <!-- 화살표 -->
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
